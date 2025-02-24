@@ -1,0 +1,10 @@
+19:23:59.389 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+19:24:02.552 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
+20:12:01.138 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+20:12:04.631 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
+20:13:10.996 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+20:13:14.127 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
+20:15:01.653 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+20:15:04.869 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
+07:18:33.249 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+07:18:36.359 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
