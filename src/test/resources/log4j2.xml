@@ -4,6 +4,7 @@
 
 <Properties>
 		<Property name="basePath">./logs</Property>
+		<Property name="log4j2.enableJndiLookup">true</Property>
 	</Properties>
 
 
