@@ -109,6 +109,13 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
       		<version>2.14.1</version> <!-- Use latest version -->
    		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/dev.failsafe/failsafe -->
+		<dependency>
+		    <groupId>dev.failsafe</groupId>
+		    <artifactId>failsafe</artifactId>
+		    <version>3.3.2</version>
+		</dependency>
+
   </dependencies>
   
   <build>

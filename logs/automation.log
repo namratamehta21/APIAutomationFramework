@@ -10,3 +10,13 @@
 07:18:36.359 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
 19:16:58.571 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
 19:17:02.519 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
+08:04:08.035 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+08:04:11.467 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
+08:05:18.185 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+08:05:21.253 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
+08:05:52.426 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+08:05:55.355 [main] INFO  api.test.GetProjectsTest - ***********Received details of projects**********
+08:06:24.353 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+08:06:27.623 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+08:06:29.281 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********
+08:06:30.972 [main] INFO  api.test.GetProjectsTest - ***********Fetching details of projects**********

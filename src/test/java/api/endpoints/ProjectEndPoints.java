@@ -6,13 +6,17 @@ import io.restassured.http.*;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 
+import java.time.Duration;
+
 import api.utilities.ReadCookie;
 import api.utilities.ReadProperties;
+import dev.failsafe.RetryPolicy;
 
 //This class is created to perform CRUD operations i.e. Create, Retrieve/Read, Update and Delete
 
 public class ProjectEndPoints 
 {
+	
 	
 		/*public static Response createContact(User payload)
 		{
@@ -35,7 +39,7 @@ public class ProjectEndPoints
 		{
 			
 			String url = ReadProperties.getURL().getString("get_projects");
-			
+
 			//String test = ReadCookie.getCookie();
 			Response response =  given()
 					.accept("application/json, text/plain, */*")

@@ -4,6 +4,7 @@
 	
 	<listeners> 
 		<listener class-name="api.utilities.ExtendReportManager" />
+		<listener class-name="com.example.listeners.RetryListener" />
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>

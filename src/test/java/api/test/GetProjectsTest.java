@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import api.endpoints.ProjectEndPoints;
+import api.utilities.RetryAnalyzer;
 import io.restassured.response.Response;
 
 public class GetProjectsTest 
@@ -18,7 +19,7 @@ public class GetProjectsTest
 		logger = LogManager.getLogger(this.getClass());
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, retryAnalyzer = RetryAnalyzer.class)
 	public void getProjectsDetail()	{
 		logger.info("***********Fetching details of projects**********");
 		Response response =ProjectEndPoints.readProjects();
