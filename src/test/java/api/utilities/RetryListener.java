@@ -1,9 +1,10 @@
 package api.utilities;
 
 import org.testng.IRetryAnalyzer;
+import org.testng.ITestNGListener;
 import org.testng.ITestResult;
 
-public class RetryListener implements IRetryAnalyzer
+public class RetryListener implements ITestNGListener, IRetryAnalyzer
 {
 
 	private int retryCount = 0;
