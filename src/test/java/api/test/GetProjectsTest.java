@@ -1,12 +1,13 @@
 package api.test;
 
+import api.endpoints.ProjectEndPoints;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import api.endpoints.ProjectEndPoints;
-import api.utilities.RetryAnalyzer;
+import api.utilities.RetryListener;
 import io.restassured.response.Response;
 
 public class GetProjectsTest 
@@ -19,7 +20,8 @@ public class GetProjectsTest
 		logger = LogManager.getLogger(this.getClass());
 	}
 	
-	@Test(priority=1, retryAnalyzer = RetryAnalyzer.class)
+	
+	@Test(retryAnalyzer = RetryListener.class, priority = 1)
 	public void getProjectsDetail()	{
 		logger.info("***********Fetching details of projects**********");
 		Response response =ProjectEndPoints.readProjects();
